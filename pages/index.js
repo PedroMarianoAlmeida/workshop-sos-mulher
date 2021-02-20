@@ -38,30 +38,30 @@ export default function Home() {
           <div className='my-6'>
             <h2 className='text-3xl my-3 text-secondary' style={{ fontFamily: 'Parisienne' }}>Ao final do S.O.S. Mulher você irá</h2>
 
-            <div className='my-3'>
+            <div className='space-y-3 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10'>
 
-              <div className='my-3'>
+              <div className='flex'>
                 <svg className='h-4 inline' xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                 </svg>
                 <p className='h-full inline'>Entender que você não é, e não precisa ser a Mulher Maravilha</p>
               </div>
 
-              <div className='my-3'>
+              <div className='flex'>
                 <svg className='h-4 inline' xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                 </svg>
                 <p className='h-full inline'>Descobrir quais as armadilhas emocionais nos são impostas desde a infância</p>
               </div>
 
-              <div className='my-3'>
+              <div className='flex'>
                 <svg className='h-4 inline' xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                 </svg>
                 <p className='h-full inline'>Conhecer ferramentas para agir com empatia e firmeza nas mais diversas situações do dia-a-dia</p>
               </div>
 
-              <div className='my-3'>
+              <div className='flex'>
                 <svg className='h-4 inline' xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                 </svg>
