@@ -1,65 +1,58 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
-        <title>Create Next App</title>
+        <title>SOS Mulher</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="description" content="Saia do piloto automático e reassuma o controle de suas emoções" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+      <main>
+        <h1 className='text-primary'>Workshop S.O.S. Mulher</h1>
+        <div>
+          <h2>Saia do pioto automático e reassuma o controle de suas ações</h2>
+          <p>Você está cansada de vivier perdida, em meio tantas demandas do dia a dia?</p>
+          <p>Se vê frustrada e sem ferramentas para mudar essa realidade?</p>
+          <p>Sente que os momentos de conflito são maiores que os momentos de alegria?</p>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+          <p>Então o S.O.S. MULHER é para você</p>
+        </div>
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+        <div>
+          <h2>Dia 01/03 - 20h</h2>
+          <p>Ao clicar no link você será direcionada para o nosso grupo de comunicados exclusivo do Workshop S.O.S. Mulher</p>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
+          <button>Quero garantir minha vaga</button>
+        </div>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
+        <div>
+          <h2>O que é o S.O.S. mulher?</h2>
+          <p>É um evento 100% online e 100% gratuito que vai te ensinar a desvendar as armadilhas que nos permitimos cair, nos levando a uma vida de desequilíbrio emocional e frustrações e a encontrar a solução mais assertiva para cada situação, voltando a ter a tranquilidade na sua casa, enquanto zela pelo respeito e pela relação de vocês</p>
+        </div>
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+        <div>
+          <h2>Ao final do S.O.S. Mulher você irá</h2>
+          <div><p>Entender que você não é, e não precisa ser a Mulher Maravilha</p></div>
+          <div><p>Descobrir quais as armadilhas emocionais nos são impostas desde a infância</p></div>
+          <div><p>Conhecer ferramentas para agir com empatia e firmeza nas mais diversas situações do dia-a-dia</p></div>
+          <div><p>Conquistar a tranquilidade na sua casa, verdadeiramente aproveitando os momentos em família</p></div>
+          <button>Quero garantir minha vaga</button>
+        </div>
+
+        <div>
+          <h2>Conheça a sua mentora</h2>
+          <p>Muito prazer eu me chamo Maria Regina Fronza, meus amigos me chamam de Marrê... Sinta-se a vontade!</p>
+          <p>Sou pedagoga, educadora emocional e mais um monte de coisa que não tem a menor importância. Sério mesmo!</p>
+          <p>O que vale aqui, é dizer que:</p>
+          <p>Durante anos levei uma vida de zumbi, e os dias passavam que nem me dava conta... Cada vez mais atribulada estava vendo tudo o que era importante pra mim indo por água abaixo</p>
+          <p>Instisfeita resolvi assumir o controle da minha vida e das minhas emoções...tomei como meta antes de qualquer coisa ser uma mulher de fato. Com minhas fragilidades, limitações, exessos, feminina, mas também profissional bem sucedida sim, esposa e dona de casa também... Por que não!</p>
+          <p>Eu criei esse programa exclusivo para um grupo de mulheres que topam viver toda essa experiência</p>
+          <p>Vai ficar de fora?</p>
+          <button>Quero garantir minha vaga</button>
         </div>
       </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
     </div>
   )
 }
